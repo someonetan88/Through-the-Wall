@@ -1,0 +1,44 @@
+{
+  "Textures": {
+    "Lacrimal_fluid_hight": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Lacrimal_fluid_hight.Lacrimal_fluid_hight",
+    "Lacrimal_fluid_nml": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Lacrimal_fluid_nml.Lacrimal_fluid_nml"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {},
+    "Scalars": {
+      "OpacityFromProgram": 0.5,
+      "DepthOffset": 0.1,
+      "DetailAmount": 0.1,
+      "DetailScale_1": 0.629358,
+      "metallic": 1.0,
+      "Roughness": 0.1,
+      "Specular": 0.01,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "bScreenSpaceReflections": true,
+      "bContactShadows": true,
+      "TranslucencyPass": "EMaterialTranslucencyPass::MTP_BeforeDOF",
+      "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_SurfacePerPixelLighting",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithMorphTargets": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "bCastRayTracedShadows": false,
+      "StateId": "16EE1970-44BD165C-BE85AF8B-FF7685F0",
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

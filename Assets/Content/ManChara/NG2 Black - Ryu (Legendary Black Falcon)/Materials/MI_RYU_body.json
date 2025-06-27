@@ -1,0 +1,77 @@
+{
+  "Textures": {
+    "Weather_Mask_Brush_Target": "/Game/UltraDynamicSky/Textures/Weather/Weather_Mask_Brush_Target.Weather_Mask_Brush_Target",
+    "WOV_Material_State_Target": "/Game/UltraDynamicSky/Textures/Weather/WOV_Material_State_Target.WOV_Material_State_Target",
+    "DefaultTexture": "/Engine/EngineResources/DefaultTexture.DefaultTexture",
+    "PuddleRipples_atlas": "/Game/UltraDynamicSky/Textures/Weather/PuddleRipples_atlas.PuddleRipples_atlas",
+    "Dripping_Pattern_Masks": "/Game/UltraDynamicSky/Textures/Weather/Dripping_Pattern_Masks.Dripping_Pattern_Masks",
+    "ParticleClouds": "/Game/UltraDynamicSky/Textures/Weather/ParticleClouds.ParticleClouds",
+    "3D_Cells_32": "/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_32.3D_Cells_32",
+    "Snow_masks": "/Game/UltraDynamicSky/Textures/Weather/Snow_masks.Snow_masks",
+    "Burnt_alb": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_alb.Burnt_alb",
+    "Burnt_nml": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_nml.Burnt_nml",
+    "Burnt_ORM": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_ORM.Burnt_ORM",
+    "Black_RGBA": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Black_RGBA.Black_RGBA",
+    "Blood_roughness": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Blood_roughness.Blood_roughness",
+    "Blood_alb": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Blood_alb.Blood_alb",
+    "Blood_nml": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Blood_nml.Blood_nml",
+    "Face_sss_occ_mask": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Face_sss_occ_mask.Face_sss_occ_mask",
+    "Face_nml": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Face_nml.Face_nml",
+    "Skin_hight": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Skin_hight.Skin_hight",
+    "Face_cavity": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Face_cavity.Face_cavity",
+    "Face_alb": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Face_alb.Face_alb",
+    "Face_spec": "/Game/Character/00_BaseMaterials/00_Skin/Texture/Face_spec.Face_spec",
+    "PM_SpecularMasks": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_spec.RYU_body_spec",
+    "PM_Diffuse": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_alb.RYU_body_alb",
+    "Albedo": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_alb.RYU_body_alb",
+    "Cavity": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_cavity.RYU_body_cavity",
+    "BaseModel_M_Arm_cavity": "/Game/Character/02_Models/00_BaseModel/BaseModel_M/Textures/BaseModel_M_Arm_cavity.BaseModel_M_Arm_cavity",
+    "PM_Normals": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_nml.RYU_body_nml",
+    "Normal": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_nml.RYU_body_nml",
+    "Specular": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_spec.RYU_body_spec",
+    "SkinMask": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_sss_occ_mask.RYU_body_sss_occ_mask",
+    "BaseModel_M_Arm_sss_occ_mask": "/Game/Character/02_Models/00_BaseModel/BaseModel_M/Textures/BaseModel_M_Arm_sss_occ_mask.BaseModel_M_Arm_sss_occ_mask",
+    "RYU_body_cavity": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_cavity.RYU_body_cavity",
+    "RYU_body_sss_occ_mask": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_sss_occ_mask.RYU_body_sss_occ_mask",
+    "WtBloodMask": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_wtm.RYU_body_wtm",
+    "RYU_body_wtm": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_body_wtm.RYU_body_wtm"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 5,
+    "Colors": {},
+    "Scalars": {
+      "ThickScatter": 0.5,
+      "ThinScatter": 0.25,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "WtBloodUseSameMask": true
+    },
+    "Properties": {
+      "ShadingModels": {
+        "ShadingModelField": 32
+      },
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "8999A842-468A9AE5-4F32C8B1-538AB157",
+      "SubsurfaceProfile": {
+        "ObjectName": "SubsurfaceProfile'SP_Skin'",
+        "ObjectPath": "/Game/Character/00_BaseMaterials/00_Skin/SubsurfaceProfile/SP_Skin.0"
+      },
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "EMaterialShadingModel::MSM_SubsurfaceProfile",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bHasStaticPermutationResource": true
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": true,
+    "HasTopSpecularMasks": true,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
