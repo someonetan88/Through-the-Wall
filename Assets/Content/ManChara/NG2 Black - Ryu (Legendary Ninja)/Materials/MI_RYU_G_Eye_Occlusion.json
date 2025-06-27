@@ -1,0 +1,48 @@
+{
+  "Textures": {
+    "EyeOcclusion": "/Game/Character/00_BaseMaterials/01_Eye/Texture/EyeOcclusion.EyeOcclusion"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "Blur color": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      }
+    },
+    "Scalars": {
+      "Shadow bottom": -0.5,
+      "Shadow top": 8.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "TranslucencyPass": "EMaterialTranslucencyPass::MTP_BeforeDOF",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithMorphTargets": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "bCastRayTracedShadows": false,
+      "StateId": "4A8A7FA9-42D82699-3E06DE90-DCE0F951",
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

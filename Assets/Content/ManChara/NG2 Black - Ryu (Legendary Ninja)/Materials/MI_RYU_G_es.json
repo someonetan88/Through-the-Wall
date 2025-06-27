@@ -1,0 +1,52 @@
+{
+  "Textures": {
+    "Eyelash_opa": "/Game/Character/00_BaseMaterials/03_Eyelash/Texture/Eyelash_opa.Eyelash_opa",
+    "OpacityMask": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_es_alpha.RYU_es_alpha",
+    "RYU_es_alpha": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_es_alpha.RYU_es_alpha"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 7,
+    "Colors": {
+      "Color": {
+        "R": 0.057292,
+        "G": 0.039593,
+        "B": 0.010885,
+        "A": 1.0,
+        "Hex": "43381A"
+      }
+    },
+    "Scalars": {
+      "OpacityScale": 3.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "ShadingModels": {
+        "ShadingModelField": 128
+      },
+      "TwoSided": true,
+      "TranslucencyPass": "EMaterialTranslucencyPass::MTP_BeforeDOF",
+      "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_Surface",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithMorphTargets": true,
+      "bUsedWithClothing": true,
+      "bUseMaterialAttributes": true,
+      "StateId": "01CE50C3-4E572AE6-234A82BE-03E0FC28",
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "ShadingModel": "EMaterialShadingModel::MSM_Hair",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

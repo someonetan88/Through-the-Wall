@@ -1,0 +1,68 @@
+{
+  "Textures": {
+    "EyeMidPlane_DP": "/Game/Character/00_BaseMaterials/01_Eye/Texture/EyeMidPlane_DP.EyeMidPlane_DP",
+    "DefaultDiffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse",
+    "DebugNumberStrip": "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip",
+    "DebugNumberPeriod": "/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod",
+    "Burnt_alb": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_alb.Burnt_alb",
+    "Burnt_nml": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_nml.Burnt_nml",
+    "Burnt_ORM": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_ORM.Burnt_ORM",
+    "Eye_Wet_nml": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eye_Wet_nml.Eye_Wet_nml",
+    "EyeIrisBaseColor_alb": "/Game/Character/00_BaseMaterials/01_Eye/Texture/EyeIrisBaseColor_alb.EyeIrisBaseColor_alb",
+    "Eyes_sclera_alb": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eyes_sclera_alb.Eyes_sclera_alb",
+    "Eye_nml": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eye_nml.Eye_nml",
+    "Eye_Sphere_nml": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eye_Sphere_nml.Eye_Sphere_nml",
+    "Pisa_HDR": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Pisa_HDR.Pisa_HDR",
+    "EyeIris_nml": "/Game/Character/00_BaseMaterials/01_Eye/Texture/EyeIris_nml.EyeIris_nml",
+    "ScleraBase_alb": "/Game/Character/00_BaseMaterials/01_Eye/Texture/ScleraBase_alb.ScleraBase_alb",
+    "ScleraVeins_alb": "/Game/Character/00_BaseMaterials/01_Eye/Texture/ScleraVeins_alb.ScleraVeins_alb",
+    "ScleraVessels_alb": "/Game/Character/00_BaseMaterials/01_Eye/Texture/ScleraVessels_alb.ScleraVessels_alb",
+    "PM_SpecularMasks": "/Game/Character/00_BaseMaterials/05_Common/WeatheringTexture/Burnt_ORM.Burnt_ORM",
+    "PM_Diffuse": "/Game/Character/00_BaseMaterials/01_Eye/Texture/EyeIrisBaseColor_alb.EyeIrisBaseColor_alb",
+    "IrisColor": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_eyeiris_alb.RYU_eyeiris_alb",
+    "RYU_eyeiris_alb": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_eyeiris_alb.RYU_eyeiris_alb",
+    "PM_Normals": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eye_Wet_nml.Eye_Wet_nml",
+    "IrisNormal": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_eyeiris_nml.RYU_eyeiris_nml",
+    "NormalMap": "/Game/Character/00_BaseMaterials/01_Eye/Texture/Eye_Wet_nml.Eye_Wet_nml",
+    "ScleraColor": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_eyebase_alb.RYU_eyebase_alb",
+    "RYU_eyebase_alb": "/Game/Character/02_Models/01_PC/RYU/Textures/RYU_eyebase_alb.RYU_eyebase_alb"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 9,
+    "Colors": {},
+    "Scalars": {
+      "Hue Shift Percentage (S)": 0.05,
+      "Iris UV Radius": 0.142,
+      "LimbusUVWidthShading": 0.5,
+      "PupilScale": 0.88,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "ShadingModels": {
+        "ShadingModelField": 512
+      },
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithMorphTargets": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "750E4471-4AB5C261-9B6184BD-51CB8484",
+      "SubsurfaceProfile": {
+        "ObjectName": "SubsurfaceProfile'SSP_Eye_Inner'",
+        "ObjectPath": "/Game/Character/00_BaseMaterials/01_Eye/SubsurfaceProfile/SSP_Eye_Inner.0"
+      },
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "ShadingModel": "EMaterialShadingModel::MSM_Eye",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": true,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
